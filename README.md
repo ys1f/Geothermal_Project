@@ -109,13 +109,13 @@ Contains visualization and mapping files organized into three subdirectories:
 ![Geothermal Gradient Map](Maps/geothermal%20map/map_gradient_from_xlsx.png)
 *Map showing geothermal gradients across Texas*
 
-### Zones Map
-![Zones Map](Maps/zones%20map/map_zones.png)
-*Map showing different geothermal zones in Texas*
-
 ### Well Density Map
 ![Well Density Map](Maps/well%20map/map_wells_density_green_red.png)
 *Map showing well density distribution with color coding (green to red)*
+
+### Zones Map **final result ⭐*
+![Zones Map](Maps/zones%20map/map_zones.png)
+*Map showing different geothermal zones in Texas*
 
 ## Dependencies
 - Python 3.x
@@ -126,4 +126,3 @@ Contains visualization and mapping files organized into three subdirectories:
   - folium
   - geopandas
   - rasterio (for TIFF processing) 
-  
