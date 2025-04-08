@@ -33,6 +33,7 @@ Contains well-specific data and analysis:
 - `well_in_texas.ipynb`: Main notebook for well data analysis and processing
 - `wells in texas.xlsx`: Comprehensive well data in Excel format
 - `texas_wells.csv`: Well data in CSV format for easier processing
+*(Data source: [WellDatabase](https://welldatabase.com/))*❗
 
 #### 3. gradient_data/
 Contains temperature and gradient-related data:
@@ -42,6 +43,7 @@ Contains temperature and gradient-related data:
 - `IRENA_hdr_T2km_global.tiff`: Temperature data at 2km depth
 - `IRENA_hdr_T1km_global.tiff`: Temperature data at 1km depth
 - `geothermal_data.ipynb`: Notebook for processing IRENA temperature data
+*(Data source: [WellDatabase](https://welldatabase.com/))*❗
 
 Main files:
 - `texas_data.csv`: Texas-specific temperature and gradient data
