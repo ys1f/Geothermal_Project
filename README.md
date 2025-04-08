@@ -82,13 +82,13 @@ Contains visualization and mapping files organized into three subdirectories:
    - Well data analysis and cleaning
    - Temperature gradient calculations
    - Zone categorization and analysis
-   - Interpolation of missing data
 
 3. **Visualization**
    - Gradient maps
    - Zone maps
    - Well density maps
-
+   - Interpolation of missing data
+   
 ## File Formats and Usage
 - **Data Files**
   - CSV: For data processing and analysis
@@ -101,7 +101,7 @@ Contains visualization and mapping files organized into three subdirectories:
 
 - **Visualization Files**
   - PNG: For map visualizations
-  - Interactive maps: Generated from notebooks
+  - Interactive maps: Generated from notebooks (will be released soon)
 
 ## Map Visualizations
 
@@ -113,21 +113,21 @@ Contains visualization and mapping files organized into three subdirectories:
 ![Well Density Map](Maps/well%20map/map_wells_density_green_red.png)
 *Map showing well density distribution with color coding (green to red)*
 
-### Zones Map **final result ⭐*
+### Zones Map **final result ⭐**
 ![Zones Map](Maps/zones%20map/map_zones.png)
 *Map showing different geothermal zones in Texas*
 
-## Example Well Data
+## Example Well of Data **ID-6** and **Radius-0.573583**
 
-| Cluster ID | Cluster Lat    | Cluster Lon     | Radius    | Well Name                      | Fluid Type | Well Lat        | Well Lon         | Depth (ft) | Gradient | Use                    |
-|------------|----------------|-----------------|-----------|-------------------------------|------------|-----------------|------------------|------------|----------|------------------------|
-| 6          | 32.39343152727 | -102.2998417446 | 0.573583  | STATE UNIVERSITY HUTEX CONS. 5 | BLACK OIL  | 32.388240814208 | -102.3065795898  | 12574      | 3.833    | Electricity generation |
-| 6          | 32.39343152727 | -102.2998417446 | 0.573583  | UNIVERSITY "12" 4              | OIL WELL   | 32.391120910645 | -102.2940139771  | 12600      | 3.84     | Electricity generation |
-| 6          | 32.39343152727 | -102.2998417446 | 0.573583  | UNIVERSITY -E- 4D              | BLACK OIL  | 32.392730712891 | -102.3033905029  | 12570      | 3.831    | Electricity generation |
-| 6          | 32.39343152727 | -102.2998417446 | 0.573583  | UNIV "E" 2                     | OIL WELL   | 32.393680572510 | -102.2992630005  | 12571      | 3.832    | Electricity generation |
-| 6          | 32.39343152727 | -102.2998417446 | 0.573583  | UNIVERSITY "12" 3              | OIL WELL   | 32.394618988037 | -102.2951354980  | 12526      | 3.818    | Electricity generation |
-| 6          | 32.39343152727 | -102.2998417446 | 0.573583  | UNIVERSITY -E- 1A              | BLACK OIL  | 32.396450042725 | -102.3001403809  | 12650      | 3.856    | Electricity generation |
-| 6          | 32.39343152727 | -102.2998417446 | 0.573583  | UNIV "E" 1                     | OIL WELL   | 32.397178649902 | -102.3003692627  | 12580      | 3.834    | Electricity generation |
+| Cluster Lat    | Cluster Lon     | Well Name                      | Fluid Type | Well Lat        | Well Lon         | Depth (ft) | Gradient | Use                    |
+|----------------|-----------------|--------------------------------|------------|-----------------|------------------|------------|----------|------------------------|
+| 32.39343152727 | -102.2998417446 | STATE UNIVERSITY HUTEX CONS. 5 | BLACK OIL  | 32.388240814208 | -102.3065795898  | 12574      | 3.833    | Electricity generation |
+| 32.39343152727 | -102.2998417446 | UNIVERSITY "12" 4              | OIL WELL   | 32.391120910645 | -102.2940139771  | 12600      | 3.84     | Electricity generation |
+| 32.39343152727 | -102.2998417446 | UNIVERSITY -E- 4D              | BLACK OIL  | 32.392730712891 | -102.3033905029  | 12570      | 3.831    | Electricity generation |
+| 32.39343152727 | -102.2998417446 | UNIV "E" 2                     | OIL WELL   | 32.393680572510 | -102.2992630005  | 12571      | 3.832    | Electricity generation |
+| 32.39343152727 | -102.2998417446 | UNIVERSITY "12" 3              | OIL WELL   | 32.394618988037 | -102.2951354980  | 12526      | 3.818    | Electricity generation |
+| 32.39343152727 | -102.2998417446 | UNIVERSITY -E- 1A              | BLACK OIL  | 32.396450042725 | -102.3001403809  | 12650      | 3.856    | Electricity generation |
+| 32.39343152727 | -102.2998417446 | UNIV "E" 1                     | OIL WELL   | 32.397178649902 | -102.3003692627  | 12580      | 3.834    | Electricity generation |
 
 
 
