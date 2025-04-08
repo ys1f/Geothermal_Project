@@ -33,6 +33,7 @@ Contains well-specific data and analysis:
 - `well_in_texas.ipynb`: Main notebook for well data analysis and processing
 - `wells in texas.xlsx`: Comprehensive well data in Excel format
 - `texas_wells.csv`: Well data in CSV format for easier processing
+
 *(Data source: [WellDatabase](https://welldatabase.com/))* ❗
 
 #### 3. gradient_data/
